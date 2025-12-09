@@ -31,7 +31,10 @@ app.use(cors({
         'http://127.0.0.1:8080',
         'http://localhost:5174',
         'http://172.16.14.145:5173',
-        'http://172.16.14.145:5174'
+        'http://172.16.14.145:5174',
+        'https://auth-provider-frontend.onrender.com'
+        
+
     ],
     credentials: true,
     allowedHeaders: ["Content-Type", "Authorization"]
